@@ -1,0 +1,112 @@
+.border {
+	display: block;
+	height: 3px;
+	background-color: orange;
+	transform: scaleX(0);
+	transform-origin: 0 50%;
+	transition: transform 0.6s;
+}
+
+.border1 {
+	display: block;
+	height: 3px;
+	background-color: orange;
+}
+
+.nava:hover .border {
+	transform: scaleX(1);
+}
+
+
+/*主题*/
+
+#zt a {
+	color: gray;
+}
+
+#aa a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+
+/*标题*/
+
+.s1 {
+	width: 80px;
+	height: 3px;
+	background: black;
+	display: inline-block;
+}
+
+
+/*结尾*/
+
+#bb a {
+	color: orange;
+}
+
+
+/*ele css*/
+
+#btn1 {
+	background-color: orange;
+	border: 0px solid white;
+}
+
+#btn2 {
+	background-color: white;
+	border: 2px solid darkgray;
+	color: black;
+}
+
+#btn1:hover {
+	background-color: black;
+}
+
+#btn2:hover {
+	background-color: orange;
+	border: 2px solid rgba(255, 255, 255, 0);
+	color: white;
+}
+
+.text_btn:hover {
+	border: 2px solid orange;
+}
+
+.text_btn:focus {
+	border: 2px solid orange;
+}
+
+.a_bid {
+	margin-right: 15px;
+}
+
+@media screen and (max-width: 992px) {
+	.small {
+		margin-top: 20px;
+	}
+}
+
+.DH:hover {
+	opacity: 0.3;
+	color: gray;
+}
+.s11{
+	visibility: hidden;
+}
+.s2{
+	display: block;
+	transform: rotate(135deg);
+     position: relative;
+     bottom: 4px;
+	
+	
+}
+.s3{
+
+	transform: rotate(45deg);
+	position: absolute;
+	top: 8px;
+	
+}

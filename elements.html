@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/rightsilder.css" />
+		<script type="text/javascript" src="js/home.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<header>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid" style="background: white;border: 0px solid gray;">
+					<div class="navbar-header" style="margin-left:40px;font-weight: bolder;font-size: 80px;">
+						<button class="navbar-toggle" data-toggle="collapse" data-target="#homenav" id="bt" style="background: white;border: 0px solid black;">
+							<span class="icon-bar" id="bt1" style="background: black;height: 3px;"></span>
+							<span class="icon-bar" id="bt2" style="background: black;height: 3px;"></span>
+							<span class="icon-bar" id="bt3" style="background: black;height: 3px;"></span>
+						</button>
+						<a href="home.html" class="navbar-brand DH" style="font-size: 25px;color: black;">导航</a>
+					</div>
+					<div id="homenav" class="collapse navbar-collapse navbar-right">
+						<ul class="nav navbar-nav">
+							<li style="background-color: white;">
+								<a href="home.html" class="nava"><span>HOME</span><span class="border"></span></a>
+							</li>
+							<li>
+								<a href="rightsidebar.html" class="nava"><span>RIGHT SIDEBAR</span><span class="border"></span></a>
+							</li>
+							<li>
+								<a href="left.html" class="nava"><span>LEFT SIDEBAR</span><span class="border"></span></a>
+							</li>
+							<li>
+								<a href="elements.html" class="nava"><span>ELEMENT</span><span class="border1"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--BODY-->
+		<div class="container" id="zt">
+			<!--标题-->
+			<div class="row text-center">
+				<h1>ELEMENTS</h1>
+				<span class="s1"></span>
+			</div>
+			<!--第二行-->
+			<div class="row" style="padding: 10px;">
+				<!--第一列-->
+				<div class="col-md-8 col-md-push-4">
+					<div class="row">
+						<h1>Header Level 1</h1>
+						<p style="line-height: 25px;font-size: 1.2em;color: gray;">
+							<span style="font-weight: bold;color: gray;">Pellentesque habitant morbi tristique</span> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+							<span><em>Aenean ultricies mi vitae est.</em></span> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+							<span class="text-danger" style="display: inline-block;background-color: lightsalmon;color: red;opacity: 0.5;font-weight: 200;border-radius: 5px;padding-left: 5px;padding-right: 5px;">commodo vitae</span> , ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+							<a href="#" style="color: orange;">Donec non enim </a>
+							in turpis pulvinar facilisis. Ut felis.
+						</p>
+					</div>
+					<div class="row">
+						<h2>Header Level 2</h2>
+						<ol style="line-height: 25px;font-size: 1.2em;color: gray;">
+							<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+							<li>Aliquam tincidunt mauris eu risus.</li>
+						</ol>
+					</div>
+					<br /><br />
+					<div class="row" style="line-height: 25px;font-size: 1.5em;color: gray;border-left: 3px solid darkgray;">
+						<p style="margin-left: 20px;">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+						</p>
+					</div>
+					<br /><br />
+					<div class="row">
+						<h3>Header Level 3</h3>
+						<ul style="line-height: 25px;font-size: 1.2em;color: gray;">
+							<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+							<li>Aliquam tincidunt mauris eu risus.</li>
+						</ul>
+					</div>
+					<div class="row">
+						<div class="panel">
+							<div class="panel-body">
+								<pre>
+#header h1 a { 
+display: block; 
+width: 300px; 
+height: 80px; 
+}
+							</pre>
+							</div>
+						</div>
+					</div>
+					<!--输入框-->
+					<div class="row">
+						<h2>BUTTONS</h2>
+					</div>
+					<form>
+						<div class="row" style="margin-bottom: 20px;">
+							<div class="col-md-3 col-xs-8" style="padding-left: 0px;margin-bottom: 10px;"><button class="btn btn-primary btn-lg " id="btn1" style=" border: 2px solid rgba(255,255,255,0);outline: none;padding:15px;">I'M A BUTTON</button></div>
+							<div class="col-md-3 col-xs-8" style="padding-left: 0px;"><button class="btn btn-primary btn-lg " id="btn2" style="outline: none;padding: 15px;">BUTTON OUTLINE</button></div>
+						</div>
+						<!--name eamil-->
+						<div class="row " style="margin-bottom: 20px;">
+							<div class="col-md-6 col-sm-12 form-group-lg " style="padding-left: 0px;">
+								<input type="text" class="form-control text_btn" placeholder="Name" />
+							</div>
+							<div class="col-md-6 col-sm-12 form-group-lg small" style="padding-left: 0px;">
+								<input type="text" class="form-control text_btn" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row" style="margin-bottom: 20px;padding-left: 0px;">
+
+							<div class="form-group form-group-lg">
+								<select name="" class="form-control text_btn">
+									<option selected="selected">--Gender--</option>
+									<option>Mame</option>
+									<option>Female</option>
+								</select>
+
+							</div>
+							<div class="col-md-6 col-sm-12"></div>
+						</div>
+						<!--文本框-->
+						<div class="row" style="margin-bottom: 20px;">
+							<div class="form-group">
+								<textarea class="form-control text_btn" rows="3" style="height: 120px;line-height: 30px;font-size: 1.5em;" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<!--重置 提交按钮-->
+						<div class="row">
+							<div style="padding-left: 0px;margin-bottom: 10px;margin-right: 20px;float: left;"><button type="submit" class="btn btn-primary btn-lg " id="btn1" style=" border: 2px solid rgba(255,255,255,0);outline: none;padding:15px;">SEND</button></div>
+							<div style="padding-left: 0px;"><button type="reset" class="btn btn-primary btn-lg " id="btn2" style="outline: none;padding: 15px;">REST</button></div>
+						</div>
+					</form>
+					<!--文本-->
+					<div class="row">
+						<h2>Image alignment</h2>
+						<p style="color: gray;line-height: 23px;">
+							<img src="img/img_small_1.jpg" class="img-responsive img-rounded text-left" style="float: left;display: inline-block;margin-right: 20px;margin-bottom: 10px;" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, asperiores, hic. Nihil, fugit. Illo maxime nemo minus magnam recusandae, ab culpa dignissimos velit. Consequatur voluptate, veniam ad ea asperiores sequi culpa, distinctio qui voluptates enim, fugit sint architecto rerum numquam deleniti incidunt ipsa omnis soluta similique quaerat deserunt provident repellendus excepturi! Alias natus dicta quasi hic obcaecati, pariatur eaque enim suscipit exercitationem quo libero eveniet aliquam repudiandae, nobis, quos tenetur ipsa quia eligendi expedita beatae laboriosam non molestias rem. Totam, aspernatur qui eos harum iusto reprehenderit corporis similique. Corporis delectus ullam earum sint in cum repellat laborum error et dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsam, sint voluptas esse quaerat modi, ex minus provident est consectetur facilis enim vitae, cupiditate deleniti numquam illo labore maiores fuga dolorum. Quae tempora hic, dolorum possimus porro sapiente! Exercitationem velit harum, assumenda deserunt minus dolorem atque illo? Repudiandae atque, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sequi doloremque ullam consequuntur saepe eaque magnam incidunt eligendi inventore unde quaerat mollitia, delectus, autem blanditiis modi beatae accusantium sapiente aperiam, praesentium odit. Eum quos, quas quasi quae repudiandae, velit et facere explicabo excepturi eaque sint tempore distinctio suscipit aspernatur nostrum reiciendis accusantium tenetur. Tempora enim consequuntur eos? Provident, at, obcaecati doloremque exercitationem hic autem est veritatis, voluptatum quos ad voluptatem similique sint nam corporis. Quia minus numquam tempora officiis, quo corrupti tempore natus sequi placeat. Quibusdam veniam nesciunt modi doloribus sapiente rerum perspiciatis praesentium esse dicta, magnam quaerat, sit optio!
+							<br /><br />
+							<img src="img/img_small_2.jpg" class="img-responsive img-rounded text-right" style="float: right;display: inline-block;margin-left: 20px;margin-bottom: 10px;" /> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, asperiores, hic. Nihil, fugit. Illo maxime nemo minus magnam recusandae, ab culpa dignissimos velit. Consequatur voluptate, veniam ad ea asperiores sequi culpa, distinctio qui voluptates enim, fugit sint architecto rerum numquam deleniti incidunt ipsa omnis soluta similique quaerat deserunt provident repellendus excepturi! Alias natus dicta quasi hic obcaecati, pariatur eaque enim suscipit exercitationem quo libero eveniet aliquam repudiandae, nobis, quos tenetur ipsa quia eligendi expedita beatae laboriosam non molestias rem. Totam, aspernatur qui eos harum iusto reprehenderit corporis similique. Corporis delectus ullam earum sint in cum repellat laborum error et dolorum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsam, sint voluptas esse quaerat modi, ex minus provident est consectetur facilis enim vitae, cupiditate deleniti numquam illo labore maiores fuga dolorum. Quae tempora hic, dolorum possimus porro sapiente! Exercitationem velit harum, assumenda deserunt minus dolorem atque illo? Repudiandae atque, magni. Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sequi doloremque ullam consequuntur saepe eaque magnam incidunt eligendi inventore unde quaerat mollitia, delectus, autem blanditiis modi beatae accusantium sapiente aperiam, praesentium odit. Eum quos, quas quasi quae repudiandae, velit et facere explicabo excepturi eaque sint tempore distinctio suscipit aspernatur nostrum reiciendis accusantium tenetur. Tempora enim consequuntur eos? Provident, at, obcaecati doloremque exercitationem hic autem est veritatis, voluptatum quos ad voluptatem similique sint nam corporis. Quia minus numquam tempora officiis, quo corrupti tempore natus sequi placeat. Quibusdam veniam nesciunt modi doloribus s
+						</p>
+
+					</div>
+				</div>
+				<!--第二列-->
+				<div class="col-md-4 col-md-pull-8" style="margin-top: 15px;">
+					<div class="row text-left" style="margin-bottom: 20px;padding-left: 10px">
+						<h4>IMAGE LIST</h4>
+					</div>
+					<div class="row" style="border: 0px solid black;padding-left: 10px;padding-bottom: 10px;padding-top: 10px;border-bottom: 1px solid rgb(231,231,231);">
+						<img src="img/img_small_1.jpg" class="img-responsive img-rounded" style="float: left;display: inline-block;width: 30%;" />
+						<div style="width: 70%;display: inline-block;padding-left: 20px;">
+							<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+
+							<div style="color: darkgray;">OTC. 12, 2015</div>
+						</div>
+					</div>
+					<div class="row" style="border: 0px solid black;padding-left: 10px;padding-bottom: 10px;padding-top: 10px;border-bottom: 1px solid rgb(231,231,231);">
+						<img src="img/img_small_1.jpg" class="img-responsive img-rounded" style="float: left;display: inline-block;width: 30%;" />
+						<div style="width: 70%;display: inline-block;padding-left: 20px;">
+							<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+
+							<div style="color: darkgray;">OTC. 12, 2015</div>
+						</div>
+					</div>
+					<div class="row" style="border: 0px solid black;padding-left: 10px;padding-bottom: 10px;padding-top: 10px;border-bottom: 1px solid rgb(231,231,231);">
+						<img src="img/img_small_1.jpg" class="img-responsive img-rounded" style="float: left;display: inline-block;width: 30%;" />
+						<div style="width: 70%;display: inline-block;padding-left: 20px;">
+							<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
+
+							<div style="color: darkgray;">OTC. 12, 2015</div>
+						</div>
+					</div>
+					<!---->
+					<div class="row" style="margin-right: 5%;padding-left: 10px">
+						<h4>PARAGRAPH</h4>
+						<br /><br />
+						<p style="color: darkgray;">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, temporibus vitae. Dolores sequi, animi dolorem. Ullam minima laudantium culpa dolorem, nulla doloribus totam obcaecati reprehenderit quasi nam eius autem nihil.
+							<br /><br />
+						</p>
+					</div>
+					<div class="row" style="padding-left: 10px">
+						<h4>CHECK LIST</h4>
+						<ul style="list-style-image: url(img/6C8C3F22-B4F3-49F3-842E-E400F35AAE1C.png);">
+							<li>
+								<a href="#" style="line-height: 2em;">Lorem ipsum dolor.</a>
+							</li>
+							<li>
+								<a href="#" style="line-height: 2em;">Ipsum mollitia dolore.</a>
+							</li>
+							<li>
+								<a href="#" style="line-height: 2em;">Eius similique in.</a>
+							</li>
+							<li>
+								<a href="#" style="line-height: 2em;">Aspernatur similique </a>
+							</li>
+							<li>
+								<a href="#" style="line-height: 2em;">Laboriosam ad commodi.</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<!--分割线-->
+		<hr style="color: rgb(231,231,231);" />
+
+		<!--结尾-->
+		<div class="container" style="padding-bottom: 100px;" id="bb">
+			<div class="row" style="background: white;padding-top: 60px;">
+				<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+					<h1 style="color: darkgray;font-size: 50px;margin-bottom: 20px;">标题</h1>
+					<p style="line-height: 2em;color: gray;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<div style="margin-top: 30px;">
+						<a href="#" class="a_bid"><img src="img/4D20102F-3EE7-4756-9CF1-91446DA7ABF2.png" /></a>
+						<a href="#" class="a_bid"><img src="img/29A93994-DF28-4B4F-AA33-25A0D93CC44A.png" /></a>
+						<a href="#" class="a_bid"><img src="img/96BAF16C-2D02-4ED4-868B-4CDDC21E4C74.png" /></a>
+						<a href="#" class="a_bid"><img src="img/C4BEF312-3117-4674-9715-69BB2729D27C.png" /></a>
+						<a href="#" class="a_bid"><img src="img/F194EA48-53FA-44BC-8904-FD08E1FBE722.png" /></a>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-12 text-left">
+					<h3 style="color: gray;">COMPANY</h3>
+					<a href="#" style="line-height: 2em;">About</a><br />
+					<a href="#" style="line-height: 2em;">Contact</a><br />
+					<a href="#" style="line-height: 2em;">News</a><br />
+					<a href="#" style="line-height: 2em;">Support</a><br />
+					<a href="#" style="line-height: 2em;">Career</a><br />
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-12 text-left">
+					<h3 style="color: gray;">FEATURES</h3>
+					<ul style="list-style-image: url(img/6C8C3F22-B4F3-49F3-842E-E400F35AAE1C.png);">
+						<li>
+							<a href="#" style="line-height: 2em;">Lorem ipsum dolor.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Ipsum mollitia dolore.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Eius similique in.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Aspernatur similique nesciunt.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Laboriosam ad commodi.</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-sm-6 col-xs-12 text-left">
+					<h3 style="color: gray;">COMPANY</h3>
+					<ul style="list-style-image: url(img/6C8C3F22-B4F3-49F3-842E-E400F35AAE1C.png);">
+						<li>
+							<a href="#" style="line-height: 2em;">Lorem ipsum dolor.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Ipsum mollitia dolore.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Eius similique in.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Aspernatur similique nesciunt.</a>
+						</li>
+						<li>
+							<a href="#" style="line-height: 2em;">Laboriosam ad commodi.</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row" style="background: white;margin-left: 10px;">
+				<p>© shuangchuang. All Rights Reserved. </p>
+				<p>More Templates
+					<a href="#">优才双创</a> - Collect from
+					<a href="#">网页模板</a> | Images by:</p>
+				<p>
+					<a href="#">DeathToTheStockPhoto</a>
+				</p>
+			</div>
+		</div>
+	</body>
+
+</html>
